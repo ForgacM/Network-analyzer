@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+	<type>
+		<dec>0</dec>
+		<name>Echo Reply</name>
+	</type>
+	<type>
+		<dec>1</dec>
+		<name>Reserved</name>
+	</type>
+	<type>
+		<dec>2</dec>
+		<name>Reserved</name>
+	</type>
+	<type>
+		<dec>3</dec>
+		<name>Destination Unreachable</name>
+	</type>
+	<type>
+		<dec>4</dec>
+		<name>Source Quench</name>
+	</type>
+	<type>
+		<dec>5</dec>
+		<name>Redirect Message</name>
+	</type>
+	<type>
+		<dec>6</dec>
+		<name>Alternate Host Address</name>
+	</type>
+	<type>
+		<dec>7</dec>
+		<name>Reserved</name>
+	</type>
+	<type>
+		<dec>8</dec>
+		<name>Echo Request</name>
+	</type>
+	<type>
+		<dec>9</dec>
+		<name>Router Advertisement</name>
+	</type>
+	<type>
+		<dec>10</dec>
+		<name>Router Solicitation</name>
+	</type>
+	<type>
+		<dec>11</dec>
+		<name>Time Exceeded</name>
+	</type>
+	<type>
+		<dec>12</dec>
+		<name>Parameter Problem: Bad IP header</name>
+	</type>
+	<type>
+		<dec>13</dec>
+		<name>Timestamp</name>
+	</type>
+	<type>
+		<dec>14</dec>
+		<name>Timestamp Reply</name>
+	</type>
+	<type>
+		<dec>15</dec>
+		<name>Information Request</name>
+	</type>
+	<type>
+		<dec>16</dec>
+		<name>Information Reply</name>
+	</type>
+	<type>
+		<dec>17</dec>
+		<name>Address Mask Request</name>
+	</type>
+	<type>
+		<dec>18</dec>
+		<name>Address Mask Reply</name>
+	</type>
+	<type>
+		<dec>19</dec>
+		<name>Reserved for security</name>
+	</type>
+	<type>
+		<dec>30</dec>
+		<name>Traceroute</name>
+	</type>
+	<type>
+		<dec>31</dec>
+		<name>Datagram Conversion Error</name>
+	</type>
+	<type>
+		<dec>32</dec>
+		<name>Mobile Host Redirect</name>
+	</type>
+	<type>
+		<dec>33</dec>
+		<name>Where-Are-You (originally meant for IPv6)</name>
+	</type>
+	<type>
+		<dec>34</dec>
+		<name>Here-I-Am (originally meant for IPv6)</name>
+	</type>
+	<type>
+		<dec>35</dec>
+		<name>Mobile Registration Request</name>
+	</type>
+	<type>
+		<dec>36</dec>
+		<name>Mobile Registration Reply</name>
+	</type>
+	<type>
+		<dec>37</dec>
+		<name>Domain Name Request</name>
+	</type>
+	<type>
+		<dec>38</dec>
+		<name>Domain Name Reply</name>
+	</type>
+	<type>
+		<dec>39</dec>
+		<name>SKIP Algorithm Discovery Protocol, Simple Key-Management for Internet Protocol</name>
+	</type>
+	<type>
+		<dec>40</dec>
+		<name>Photuris, Security failures</name>
+	</type>
+	<type>
+		<dec>41</dec>
+		<name>ICMP for experimental mobility protocols such as Seamoby [RFC4065]</name>
+	</type>
+	<type>
+		<dec>42</dec>
+		<name>through</name>
+	</type>
+</types>
