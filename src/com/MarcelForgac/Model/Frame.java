@@ -8,9 +8,9 @@ import java.util.List;
  */
 public class Frame {
 
-    public List<String> frameList ;//= new ArrayList<String>();
-    public List<Integer> frameLength; // = new ArrayList<Integer>();
-    public List<String> frameType; // = new ArrayList<String>();
+    public List<String> frameList ;
+    public List<Integer> frameLength;
+    public List<String> frameType;
 
 
     public void FrameParser (String hexString,Integer length) {
@@ -59,9 +59,9 @@ public class Frame {
 
     public void Clear() {
 
-        frameList = new ArrayList<String>();
-        frameLength = new ArrayList<Integer>();
-        frameType = new ArrayList<String>();
+        frameList = new ArrayList<>();
+        frameLength = new ArrayList<>();
+        frameType = new ArrayList<>();
     }
 
 }

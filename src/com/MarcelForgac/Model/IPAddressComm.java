@@ -33,7 +33,7 @@ public class IPAddressComm {
 
     public IPAddressComm() {
         count=0;
-        iplength = new ArrayList<Integer>();
-        ipList = new ArrayList<String>();
+        iplength = new ArrayList<>();
+        ipList = new ArrayList<>();
     }
 }

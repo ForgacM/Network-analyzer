@@ -1,7 +1,6 @@
 package com.MarcelForgac.Model;
 
 import com.MarcelForgac.Model.XmlLogic.EthernetList;
-import com.MarcelForgac.Model.XmlLogic.PortsList;
 import com.MarcelForgac.Model.XmlLogic.ProtocolsList;
 import org.pcap4j.core.PcapHandle;
 import org.pcap4j.core.PcapNativeException;
@@ -19,7 +18,7 @@ import java.util.concurrent.TimeoutException;
  */
 public abstract class Communication {
 
-    public static List<String> packetList;// = new ArrayList<String>();
+    public static List<String> packetList;
     public static ArrayList<String> finalPacketList;
     public static ArrayList<ARP> arpList;
     public static ArrayList<TCP> tcpList;
@@ -61,7 +60,6 @@ public abstract class Communication {
                     }
                 }
                 index++;
-
 
             } catch (TimeoutException e) {
             } catch (EOFException e) {

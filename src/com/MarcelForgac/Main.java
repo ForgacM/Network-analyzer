@@ -9,7 +9,7 @@ import com.MarcelForgac.View.SecondWindow;
 public class Main {
 
     public static void main(String[] args) {
-        SecondWindowController wind = new SecondWindowController(new SecondWindow());
+        new SecondWindowController(new SecondWindow());
     }
 
 }

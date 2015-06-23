@@ -1,7 +1,6 @@
 package com.MarcelForgac.Model;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 /**
  * Created by marcelforgac on 9.3.15.
